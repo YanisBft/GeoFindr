@@ -1,0 +1,146 @@
+package com.yanisbft.geofindr.data;
+
+import com.yanisbft.geofindr.location.City;
+import com.yanisbft.geofindr.location.Subdivision;
+
+public class Subdivisions {
+    public static final Subdivision ALABAMA = new Subdivision(Countries.UNITED_STATES, "Alabama", Subdivision.Type.STATE, "US-AL", new City("Montgomery"), true);
+    public static final Subdivision ALASKA = new Subdivision(Countries.UNITED_STATES, "Alaska", Subdivision.Type.STATE, "US-AK", new City("Juneau"), true);
+    public static final Subdivision ARIZONA = new Subdivision(Countries.UNITED_STATES, "Arizona", Subdivision.Type.STATE, "US-AZ", new City("Phoenix"));
+    public static final Subdivision ARKANSAS = new Subdivision(Countries.UNITED_STATES, "Arkansas", Subdivision.Type.STATE, "US-AR", new City("Little Rock"));
+    public static final Subdivision CALIFORNIA = new Subdivision(Countries.UNITED_STATES, "California", Subdivision.Type.STATE, "US-CA", new City("Sacramento"), true);
+    public static final Subdivision COLORADO = new Subdivision(Countries.UNITED_STATES, "Colorado", Subdivision.Type.STATE, "US-CO", new City("Denver"));
+    public static final Subdivision CONNECTICUT = new Subdivision(Countries.UNITED_STATES, "Connecticut", Subdivision.Type.STATE, "US-CT", new City("Hartford"), true);
+    public static final Subdivision DELAWARE = new Subdivision(Countries.UNITED_STATES, "Delaware", Subdivision.Type.STATE, "US-DE", new City("Dover"), true);
+    public static final Subdivision FLORIDA = new Subdivision(Countries.UNITED_STATES, "Florida", Subdivision.Type.STATE, "US-FL", new City("Tallahassee"), true);
+    public static final Subdivision GEORGIA = new Subdivision(Countries.UNITED_STATES, "Georgia", Subdivision.Type.STATE, "US-GA", new City("Atlanta"), true);
+    public static final Subdivision HAWAII = new Subdivision(Countries.UNITED_STATES, "Hawaii", Subdivision.Type.STATE, "US-HI", new City("Honolulu"), true);
+    public static final Subdivision IDAHO = new Subdivision(Countries.UNITED_STATES, "Idaho", Subdivision.Type.STATE, "US-ID", new City("Boise"));
+    public static final Subdivision ILLINOIS = new Subdivision(Countries.UNITED_STATES, "Illinois", Subdivision.Type.STATE, "US-IL", new City("Springfield"));
+    public static final Subdivision INDIANA = new Subdivision(Countries.UNITED_STATES, "Indiana", Subdivision.Type.STATE, "US-IN", new City("Indianapolis"));
+    public static final Subdivision IOWA = new Subdivision(Countries.UNITED_STATES, "Iowa", Subdivision.Type.STATE, "US-IA", new City("Des Moines"));
+    public static final Subdivision KANSAS = new Subdivision(Countries.UNITED_STATES, "Kansas", Subdivision.Type.STATE, "US-KS", new City("Topeka"));
+    public static final Subdivision KENTUCKY = new Subdivision(Countries.UNITED_STATES, "Kentucky", Subdivision.Type.STATE, "US-KY", new City("Frankfort"));
+    public static final Subdivision LOUISIANA = new Subdivision(Countries.UNITED_STATES, "Louisiana", Subdivision.Type.STATE, "US-LA", new City("Baton Rouge"), true);
+    public static final Subdivision MAINE = new Subdivision(Countries.UNITED_STATES, "Maine", Subdivision.Type.STATE, "US-ME", new City("Augusta"), true);
+    public static final Subdivision MARYLAND = new Subdivision(Countries.UNITED_STATES, "Maryland", Subdivision.Type.STATE, "US-MD", new City("Annapolis"), true);
+    public static final Subdivision MASSACHUSETTS = new Subdivision(Countries.UNITED_STATES, "Massachusetts", Subdivision.Type.STATE, "US-MA", new City("Boston"), true);
+    public static final Subdivision MICHIGAN = new Subdivision(Countries.UNITED_STATES, "Michigan", Subdivision.Type.STATE, "US-MI", new City("Lansing"));
+    public static final Subdivision MINNESOTA = new Subdivision(Countries.UNITED_STATES, "Minnesota", Subdivision.Type.STATE, "US-MN", new City("Saint Paul"));
+    public static final Subdivision MISSISSIPPI = new Subdivision(Countries.UNITED_STATES, "Mississippi", Subdivision.Type.STATE, "US-MS", new City("Jackson"), true);
+    public static final Subdivision MISSOURI = new Subdivision(Countries.UNITED_STATES, "Missouri", Subdivision.Type.STATE, "US-MO", new City("Jefferson City"));
+    public static final Subdivision MONTANA = new Subdivision(Countries.UNITED_STATES, "Montana", Subdivision.Type.STATE, "US-MT", new City("Helena"));
+    public static final Subdivision NEBRASKA = new Subdivision(Countries.UNITED_STATES, "Nebraska", Subdivision.Type.STATE, "US-NE", new City("Lincoln"));
+    public static final Subdivision NEVADA = new Subdivision(Countries.UNITED_STATES, "Nevada", Subdivision.Type.STATE, "US-NV", new City("Carson City"));
+    public static final Subdivision NEW_HAMPSHIRE = new Subdivision(Countries.UNITED_STATES, "New Hampshire", Subdivision.Type.STATE, "US-NH", new City("Concord"), true);
+    public static final Subdivision NEW_JERSEY = new Subdivision(Countries.UNITED_STATES, "New Jersey", Subdivision.Type.STATE, "US-NJ", new City("Trenton"), true);
+    public static final Subdivision NEW_MEXICO = new Subdivision(Countries.UNITED_STATES, "New Mexico", Subdivision.Type.STATE, "US-NM", new City("Santa Fe"));
+    public static final Subdivision NEW_YORK = new Subdivision(Countries.UNITED_STATES, "New York", Subdivision.Type.STATE, "US-NY", new City("Albany"), true);
+    public static final Subdivision NORTH_CAROLINA = new Subdivision(Countries.UNITED_STATES, "North Carolina", Subdivision.Type.STATE, "US-NC", new City("Raleigh"), true);
+    public static final Subdivision NORTH_DAKOTA = new Subdivision(Countries.UNITED_STATES, "North Dakota", Subdivision.Type.STATE, "US-ND", new City("Bismarck"));
+    public static final Subdivision OHIO = new Subdivision(Countries.UNITED_STATES, "Ohio", Subdivision.Type.STATE, "US-OH", new City("Columbus"));
+    public static final Subdivision OKLAHOMA = new Subdivision(Countries.UNITED_STATES, "Oklahoma", Subdivision.Type.STATE, "US-OK", new City("Oklahoma City"));
+    public static final Subdivision OREGON = new Subdivision(Countries.UNITED_STATES, "Oregon", Subdivision.Type.STATE, "US-OR", new City("Salem"), true);
+    public static final Subdivision PENNSYLVANIA = new Subdivision(Countries.UNITED_STATES, "Pennsylvania", Subdivision.Type.STATE, "US-PA", new City("Harrisburg"));
+    public static final Subdivision RHODE_ISLAND = new Subdivision(Countries.UNITED_STATES, "Rhode Island", Subdivision.Type.STATE, "US-RI", new City("Providence"), true);
+    public static final Subdivision SOUTH_CAROLINA = new Subdivision(Countries.UNITED_STATES, "South Carolina", Subdivision.Type.STATE, "US-SC", new City("Columbia"), true);
+    public static final Subdivision SOUTH_DAKOTA = new Subdivision(Countries.UNITED_STATES, "South Dakota", Subdivision.Type.STATE, "US-SD", new City("Pierre"));
+    public static final Subdivision TENNESSEE = new Subdivision(Countries.UNITED_STATES, "Tennessee", Subdivision.Type.STATE, "US-TN", new City("Nashville"));
+    public static final Subdivision TEXAS = new Subdivision(Countries.UNITED_STATES, "Texas", Subdivision.Type.STATE, "US-TX", new City("Austin"), true);
+    public static final Subdivision UTAH = new Subdivision(Countries.UNITED_STATES, "Utah", Subdivision.Type.STATE, "US-UT", new City("Salt Lake City"));
+    public static final Subdivision VERMONT = new Subdivision(Countries.UNITED_STATES, "Vermont", Subdivision.Type.STATE, "US-VT", new City("Montpelier"));
+    public static final Subdivision VIRGINIA = new Subdivision(Countries.UNITED_STATES, "Virginia", Subdivision.Type.STATE, "US-VA", new City("Richmond"), true);
+    public static final Subdivision WASHINGTON = new Subdivision(Countries.UNITED_STATES, "Washington", Subdivision.Type.STATE, "US-WA", new City("Olympia"), true);
+    public static final Subdivision WEST_VIRGINIA = new Subdivision(Countries.UNITED_STATES, "West Virginia", Subdivision.Type.STATE, "US-WV", new City("Charleston"));
+    public static final Subdivision WISCONSIN = new Subdivision(Countries.UNITED_STATES, "Wisconsin", Subdivision.Type.STATE, "US-WI", new City("Madison"));
+    public static final Subdivision WYOMING = new Subdivision(Countries.UNITED_STATES, "Wyoming", Subdivision.Type.STATE, "US-WY", new City("Cheyenne"), false);
+
+    public static final Subdivision BERAT = new Subdivision(Countries.ALBANIA, "Berat", Subdivision.Type.COUNTY, "AL-01", new City("Berat"));
+    public static final Subdivision DIBER = new Subdivision(Countries.ALBANIA, "Dib\u00EBr", Subdivision.Type.COUNTY, "AL-09", new City("Peshkopi"));
+    public static final Subdivision DURRES = new Subdivision(Countries.ALBANIA, "Durr\u00EBs", Subdivision.Type.COUNTY, "AL-02", new City("Durr\u00EBs"), true);
+    public static final Subdivision ELBASAN = new Subdivision(Countries.ALBANIA, "Elbasan", Subdivision.Type.COUNTY, "AL-03", new City("Elbasan"));
+    public static final Subdivision FIER = new Subdivision(Countries.ALBANIA, "Fier", Subdivision.Type.COUNTY, "AL-04", new City("Fier"), true);
+    public static final Subdivision GJIROKASTER = new Subdivision(Countries.ALBANIA, "Gjirokast\u00EBr", Subdivision.Type.COUNTY, "AL-05", new City("Gjirokast\u00EBr"));
+    public static final Subdivision KORCE = new Subdivision(Countries.ALBANIA, "Kor\u00E7\u00EB", Subdivision.Type.COUNTY, "AL-06", new City("Kor\u00E7\u00EB"));
+    public static final Subdivision KUKES = new Subdivision(Countries.ALBANIA, "Kuk\u00EBs", Subdivision.Type.COUNTY, "AL-07", new City("Kuk\u00EBs"));
+    public static final Subdivision LEZHE = new Subdivision(Countries.ALBANIA, "Lezh\u00EB", Subdivision.Type.COUNTY, "AL-08", new City("Lezh\u00EB"), true);
+    public static final Subdivision SHKODER = new Subdivision(Countries.ALBANIA, "Shkod\u00EBr", Subdivision.Type.COUNTY, "AL-10", new City("Shkod\u00EBr"), true);
+    public static final Subdivision TIRANA = new Subdivision(Countries.ALBANIA, "Tirana", Subdivision.Type.COUNTY, "AL-11", new City("Tirana"), true);
+    public static final Subdivision VLORE = new Subdivision(Countries.ALBANIA, "Vlor\u00EB", Subdivision.Type.COUNTY, "AL-12", new City("Vlor\u00EB"), true);
+
+    public static final Subdivision NEW_SOUTH_WALES = new Subdivision(Countries.AUSTRALIA, "New South Wales", Subdivision.Type.STATE, "AU-NSW", new City("Sydney"), true);
+    public static final Subdivision QUEENSLAND = new Subdivision(Countries.AUSTRALIA, "Queensland", Subdivision.Type.STATE, "AU-QLD", new City("Brisbane"), true);
+    public static final Subdivision SOUTH_AUSTRALIA = new Subdivision(Countries.AUSTRALIA, "South Australia", Subdivision.Type.STATE, "AU-SA", new City("Adelaide"), true);
+    public static final Subdivision TASMANIA = new Subdivision(Countries.AUSTRALIA, "Tasmania", Subdivision.Type.STATE, "AU-TAS", new City("Hobart"), true);
+    public static final Subdivision VICTORIA = new Subdivision(Countries.AUSTRALIA, "Victoria", Subdivision.Type.STATE, "AU-VIC", new City("Melbourne"), true);
+    public static final Subdivision WESTERN_AUSTRALIA = new Subdivision(Countries.AUSTRALIA, "Western Australia", Subdivision.Type.STATE, "AU-WA", new City("Perth"), true);
+    public static final Subdivision AUSTRALIAN_CAPITAL_TERRITORY = new Subdivision(Countries.AUSTRALIA, "Australian Capital Territory", Subdivision.Type.TERRITORY, "AU-ACT", new City("Canberra"));
+    public static final Subdivision NORTHERN_TERRITORY = new Subdivision(Countries.AUSTRALIA, "Northern Territory", Subdivision.Type.TERRITORY, "AU-NT", new City("Darwin"), true);
+
+    public static final Subdivision BURGENLAND = new Subdivision(Countries.AUSTRIA, "Burgenland", Subdivision.Type.STATE, "AT-1", new City("Eisenstadt"));
+    public static final Subdivision CARINTHIA = new Subdivision(Countries.AUSTRIA, "Carinthia", Subdivision.Type.STATE, "AT-2", new City("Klagenfurt"));
+    public static final Subdivision LOWER_AUSTRIA = new Subdivision(Countries.AUSTRIA, "Lower Austria", Subdivision.Type.STATE, "AT-3", new City("Sankt P\u00F6lten"));
+    public static final Subdivision SALZBURG = new Subdivision(Countries.AUSTRIA, "Salzburg", Subdivision.Type.STATE, "AT-5", new City("Salzburg"));
+    public static final Subdivision STYRIA = new Subdivision(Countries.AUSTRIA, "Styria", Subdivision.Type.STATE, "AT-6", new City("Graz"));
+    public static final Subdivision TYROL = new Subdivision(Countries.AUSTRIA, "Tyrol", Subdivision.Type.STATE, "AT-7", new City("Innsbruck"));
+    public static final Subdivision UPPER_AUSTRIA = new Subdivision(Countries.AUSTRIA, "Upper Austria", Subdivision.Type.STATE, "AT-4", new City("Linz"));
+    public static final Subdivision VORARLBERG = new Subdivision(Countries.AUSTRIA, "Vorarlberg", Subdivision.Type.STATE, "AT-8", new City("Vienna"));
+    public static final Subdivision VIENNA = new Subdivision(Countries.AUSTRIA, "Vienna", Subdivision.Type.STATE, "AT-9", new City("Bregenz"));
+
+    public static final Subdivision BRUSSELS = new Subdivision(Countries.BELGIUM, "Brussels", Subdivision.Type.REGION, "BE-BRU", new City("Brussels"));
+    public static final Subdivision FLANDERS = new Subdivision(Countries.BELGIUM, "Flanders", Subdivision.Type.REGION, "BE-VLG", new City("Brussels"), true);
+    public static final Subdivision WALLONIA = new Subdivision(Countries.BELGIUM, "Wallonia", Subdivision.Type.REGION, "BE-WAL", new City("Namur"));
+
+    public static final Subdivision ALBERTA = new Subdivision(Countries.CANADA, "Alberta", Subdivision.Type.PROVINCE, "CA-AB", new City("Edmonton"));
+    public static final Subdivision BRITISH_COLUMBIA = new Subdivision(Countries.CANADA, "British Columbia", Subdivision.Type.PROVINCE, "CA-BC", new City("Victoria"), true);
+    public static final Subdivision MANITOBA = new Subdivision(Countries.CANADA, "Manitoba", Subdivision.Type.PROVINCE, "CA-MB", new City("Winnipeg"), true);
+    public static final Subdivision NEW_BRUNSWICK = new Subdivision(Countries.CANADA, "New Brunswick", Subdivision.Type.PROVINCE, "CA-NB", new City("Fredericton"), true);
+    public static final Subdivision NEWFOUNDLAND_AND_LABRADOR = new Subdivision(Countries.CANADA, "Newfoundland and Labrador", Subdivision.Type.PROVINCE, "CA-NL", new City("St. John's"), true);
+    public static final Subdivision NOVA_SCOTIA = new Subdivision(Countries.CANADA, "Nova Scotia", Subdivision.Type.PROVINCE, "CA-NS", new City("Halifax"), true);
+    public static final Subdivision ONTARIO = new Subdivision(Countries.CANADA, "Ontario", Subdivision.Type.PROVINCE, "CA-ON", new City("Toronto"), true);
+    public static final Subdivision PRINCE_EDWARD_ISLAND = new Subdivision(Countries.CANADA, "Prince Edward Island", Subdivision.Type.PROVINCE, "CA-PE", new City("Charlottetown"), true);
+    public static final Subdivision QUEBEC = new Subdivision(Countries.CANADA, "Quebec", Subdivision.Type.PROVINCE, "CA-QC", new City("Quebec City"), true);
+    public static final Subdivision SASKATCHEWAN = new Subdivision(Countries.CANADA, "Saskatchewan", Subdivision.Type.PROVINCE, "CA-SK", new City("Regina"));
+
+    public static final Subdivision HHOHHO = new Subdivision(Countries.ESWATINI, "Hhohho", Subdivision.Type.REGION, "SZ-HH", new City("Mbabane"));
+    public static final Subdivision LUBOMBO = new Subdivision(Countries.ESWATINI, "Lubombo", Subdivision.Type.REGION, "SZ-LU", new City("Siteki"));
+    public static final Subdivision MANZINI = new Subdivision(Countries.ESWATINI, "Manzini", Subdivision.Type.REGION, "SZ-MA", new City("Manzini"));
+    public static final Subdivision SHISELWENI = new Subdivision(Countries.ESWATINI, "Shiselweni", Subdivision.Type.REGION, "SZ-SH", new City("Nhlangano"));
+
+    public static final Subdivision ESTUAIRE = new Subdivision(Countries.GABON, "Estuaire", Subdivision.Type.PROVINCE, "GA-1", new City("Libreville"), true);
+    public static final Subdivision HAUT_OGOOUE = new Subdivision(Countries.GABON, "Haut-Ogoou\u00E9", Subdivision.Type.PROVINCE, "GA-2", new City("Franceville"));
+    public static final Subdivision MOYEN_OGGOUE = new Subdivision(Countries.GABON, "Moyen-Ogoou\u00E9", Subdivision.Type.PROVINCE, "GA-3", new City("Lambar\u00E9n\u00E9"));
+    public static final Subdivision NGOUNIE = new Subdivision(Countries.GABON, "Ngouni\u00E9", Subdivision.Type.PROVINCE, "GA-4", new City("Mouila"));
+    public static final Subdivision NYANGA = new Subdivision(Countries.GABON, "Nyanga", Subdivision.Type.PROVINCE, "GA-5", new City("Tchibanga"), true);
+    public static final Subdivision OGOOUE_IVINDO = new Subdivision(Countries.GABON, "Ogoou\u00E9-Ivindo", Subdivision.Type.PROVINCE, "GA-6", new City("Makokou"));
+    public static final Subdivision OGOOUE_LOLO = new Subdivision(Countries.GABON, "Ogoou\u00E9-Lolo", Subdivision.Type.PROVINCE, "GA-7", new City("Koulamoutou"));
+    public static final Subdivision OGOOUE_MARITIME = new Subdivision(Countries.GABON, "Ogoou\u00E9-Maritime", Subdivision.Type.PROVINCE, "GA-8", new City("Port-Gentil"), true);
+    public static final Subdivision WOLEU_NTEM = new Subdivision(Countries.GABON, "Woleu-Ntem", Subdivision.Type.PROVINCE, "GA-9", new City("Oyem"));
+
+    public static final Subdivision ANDALUSIA = new Subdivision(Countries.SPAIN, "Andalusia", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-AN", new City("Seville"), true);
+    public static final Subdivision ARAGON = new Subdivision(Countries.SPAIN, "Aragon", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-AR", new City("Zaragoza"));
+    public static final Subdivision ASTURIAS = new Subdivision(Countries.SPAIN, "Asturias", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-AS", new City("Oviedo"), true);
+    public static final Subdivision BALEARIC_ISLANDS = new Subdivision(Countries.SPAIN, "Balearic Islands", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-IB", new City("Palma"), true);
+    public static final Subdivision BASQUE_COUNTRY = new Subdivision(Countries.SPAIN, "Basque Country", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-PV", new City("Vitoria-Gasteiz"), true);
+    public static final Subdivision CANARY_ISLANDS = new Subdivision(Countries.SPAIN, "Canary Islands", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-CN", new City("Santa Cruz de Tenerife"), true);
+    public static final Subdivision CANTABRIA = new Subdivision(Countries.SPAIN, "Cantabria", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-CB", new City("Santander"), true);
+    public static final Subdivision CASTILE_AND_LEON = new Subdivision(Countries.SPAIN, "Castile and Le\u00F3n", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-CL", new City("Valladolid"));
+    public static final Subdivision CASTILLA_LA_MANCHA = new Subdivision(Countries.SPAIN, "Castilla-La Mancha", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-CM", new City("Toledo"));
+    public static final Subdivision CATALONIA = new Subdivision(Countries.SPAIN, "Catalonia", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-CT", new City("Barcelona"), true);
+    public static final Subdivision CEUTA = new Subdivision(Countries.SPAIN, "Ceuta", Subdivision.Type.AUTONOMOUS_CITY, "ES-CE", new City("Ceuta"), true);
+    public static final Subdivision COMMUNITY_OF_MADRID = new Subdivision(Countries.SPAIN, "Community of Madrid", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-MD", new City("Madrid"));
+    public static final Subdivision EXTREMADURA = new Subdivision(Countries.SPAIN, "Extremadura", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-EX", new City("M\u00E9rida"));
+    public static final Subdivision GALICIA = new Subdivision(Countries.SPAIN, "Galicia", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-GA", new City("Santiago de Compostela"), true);
+    public static final Subdivision LA_RIOJA = new Subdivision(Countries.SPAIN, "La Rioja", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-RI", new City("Logro\u00F1o"));
+    public static final Subdivision MELILLA = new Subdivision(Countries.SPAIN, "Melilla", Subdivision.Type.AUTONOMOUS_CITY, "ES-ML", new City("Melilla"), true);
+    public static final Subdivision NAVARRE = new Subdivision(Countries.SPAIN, "Navarre", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-NC", new City("Pamplona"));
+    public static final Subdivision REGION_OF_MURCIA = new Subdivision(Countries.SPAIN, "Region of Murcia", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-MC", new City("Murcia"), true);
+    public static final Subdivision VALENCIAN_COMMUNITY = new Subdivision(Countries.SPAIN, "Valencian Community", Subdivision.Type.AUTONOMOUS_COMMUNITY, "ES-VC", new City("Valencia"), true);
+
+    public static final Subdivision MALAMPA = new Subdivision(Countries.VANUATU, "Malampa", Subdivision.Type.PROVINCE, "VU-MAP", new City("Lakatoro"), true);
+    public static final Subdivision PENAMA = new Subdivision(Countries.VANUATU, "Penama", Subdivision.Type.PROVINCE, "VU-PAM", new City("Saratamata"), true);
+    public static final Subdivision SANMA = new Subdivision(Countries.VANUATU, "Sanma", Subdivision.Type.PROVINCE, "VU-SAM", new City("Luganville"), true);
+    public static final Subdivision SHEFA = new Subdivision(Countries.VANUATU, "Shefa", Subdivision.Type.PROVINCE, "VU-SEE", new City("Port Vila"), true);
+    public static final Subdivision TAFEA = new Subdivision(Countries.VANUATU, "Tafea", Subdivision.Type.PROVINCE, "VU-TAE", new City("Isangel"), true);
+    public static final Subdivision TORBA = new Subdivision(Countries.VANUATU, "Torba", Subdivision.Type.PROVINCE, "VU-TOB", new City("Sola"), true);
+}
